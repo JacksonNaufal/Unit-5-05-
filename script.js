@@ -7,7 +7,7 @@ document.getElementById('button').addEventListener('click', addition)
 
 function addition () {
   length = document.getElementById('addition').value
-  number = parseInt(value)
+  number=parseInt(value)
   number = length * length
   alert(number)
 }
